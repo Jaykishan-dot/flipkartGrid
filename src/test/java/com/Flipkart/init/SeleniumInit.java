@@ -101,7 +101,7 @@ public class SeleniumInit
 				filepath = common.takeScreenshot(TestResult.getName());
 				Reporter.setCurrentTestResult(TestResult);
 				Reporter.log("<a href=\"" + filepath + "\">" +filepath + "</a>");
-				sendMail();
+				//sendMail();
 			}
 			catch(Exception e)
 			{
@@ -118,7 +118,7 @@ public class SeleniumInit
 
 	}
 	//@AfterClass(alwaysRun = true)
-	public void sendMail() throws MessagingException, EmailException, FileNotFoundException
+	/*public void sendMail() throws MessagingException, EmailException, FileNotFoundException
 	{
 		String username="jaykishan.kiwiqa@gmail.com";
 		String password="J@ckdave199110";
@@ -142,7 +142,7 @@ public class SeleniumInit
 		//test
 // testing
 		
-	}
+	}*/
 	
 	
 	
