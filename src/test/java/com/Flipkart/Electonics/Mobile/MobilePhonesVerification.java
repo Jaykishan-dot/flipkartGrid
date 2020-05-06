@@ -31,10 +31,29 @@ public class MobilePhonesVerification extends AbstractPage
 			
 	}
 	
+	//Title
+	@FindBy(xpath="//title[text()='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!']")  public WebElement flipkartTitle;
+	public boolean getFlipkartTitle()
+	{
+		
+		if(flipkartTitle.getText().equals("Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!"))
+		{
+			System.out.println("This Statement is from MobilePhonesVerification.................................................................."+flipkartTitle.getText());
+			return true;
+		}
+		else
+		{
+			System.out.println("This Statement is from MobilePhonesVerification fail statement.................................................................."+flipkartTitle.getText());
+			return false;
+		}
+		
+			
+	}
+	
 	@FindBy(xpath="//span[text()='Electronics']") public WebElement ElectronicsMenu;
 	public boolean showElectronicsMenu()
 	{
-		if(ElectronicsMenu.getText().equals("Electroni"))
+		if(ElectronicsMenu.getText().equals("Electronics"))
 		{
 			return true;
 		}

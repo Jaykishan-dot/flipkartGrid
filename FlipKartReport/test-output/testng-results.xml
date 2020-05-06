@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com/<font><br><b>]]>
+      <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]>
     </line>
     <line>
       <![CDATA[<u><Font color='Black'>Verify the 'X' button is available<font><br></u>]]>
@@ -17,7 +17,7 @@
       <![CDATA[<u><Font color='Black'>Verify the 'Electronics' button is available<font><br></u>]]>
     </line>
     <line>
-      <![CDATA[<b><Font color='RED'>Result is Fail:Electronics button is not shown<font><br><b>]]>
+      <![CDATA[<b><Font color='green'>Result is Pass:Electronics button is shown<font><br><b>]]>
     </line>
     <line>
       <![CDATA[<b><Font color='BLUE'>Step 3: Hower on 'Electronics' button<font><br><b>]]>
@@ -32,32 +32,100 @@
       <![CDATA[<b><Font color='BLUE'>Step 6: Click on '4 GB' check box<font><br><b>]]>
     </line>
     <line>
+      <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]>
+    </line>
+    <line>
       <![CDATA[<b><Font color='BLUE'>Step 7: Click on ''Product Item link<font><br><b>]]>
+    </line>
+    <line>
+      <![CDATA[<u><Font color='Black'>Verify the 'title' is Correct<font><br></u>]]>
+    </line>
+    <line>
+      <![CDATA[<b><Font color='RED'>Result is Fail: is not available<font><br><b>]]>
     </line>
     <line>
       <![CDATA[<b><Font color='BLUE'>Step 8: Click on ''Add to Cart' link<font><br><b>]]>
     </line>
     <line>
-      <![CDATA[<a href="D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\mobile.png">D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\mobile.png</a>]]>
+      <![CDATA[<a href="D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\flipkartTitleFail.png">D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\flipkartTitleFail.png</a>]]>
     </line>
   </reporter-output>
-  <suite name="Parameter Test  Suit" duration-ms="42663" started-at="2020-05-04T11:29:24Z" finished-at="2020-05-04T11:30:07Z">
+  <suite name="Parameter Test  Suit" duration-ms="92338" started-at="2020-05-06T06:28:35Z" finished-at="2020-05-06T06:30:07Z">
     <groups>
     </groups>
-    <test name="Build Configuration" duration-ms="42663" started-at="2020-05-04T11:29:24Z" finished-at="2020-05-04T11:30:07Z">
+    <test name="Build Configuration" duration-ms="87837" started-at="2020-05-06T06:28:35Z" finished-at="2020-05-06T06:30:02Z">
       <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
-        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@36f6e879]" name="BrowserSetup" is-config="true" duration-ms="13279" started-at="2020-05-04T16:59:24Z" finished-at="2020-05-04T16:59:37Z">
+        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@47f6473]" name="BrowserSetup" is-config="true" duration-ms="60250" started-at="2020-05-06T11:58:35Z" finished-at="2020-05-06T11:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method status="FAIL" signature="mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@36f6e879]" name="mobile" duration-ms="19947" started-at="2020-05-04T16:59:37Z" finished-at="2020-05-04T16:59:57Z">
+        <test-method status="PASS" signature="mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@47f6473]" name="mobile" duration-ms="27306" started-at="2020-05-06T11:59:35Z" finished-at="2020-05-06T12:00:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<u><Font color='Black'>Verify the 'X' button is available<font><br></u>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='green'>Result is Pass:✕ button is shown<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 2: Click on 'X' button<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<u><Font color='Black'>Verify the 'Electronics' button is available<font><br></u>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='green'>Result is Pass:Electronics button is shown<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 3: Hower on 'Electronics' button<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 4: Click and select on mobile brands<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 5: Click and drag the price slider<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 6: Click on '4 GB' check box<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 7: Click on ''Product Item link<font><br><b>]]>
+            </line>
+            <line>
+              <![CDATA[<b><Font color='BLUE'>Step 8: Click on ''Add to Cart' link<font><br><b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+        <test-method status="PASS" signature="postConfig(org.testng.ITestResult)[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@47f6473]" name="postConfig" is-config="true" duration-ms="0" started-at="2020-05-06T12:00:02Z" finished-at="2020-05-06T12:00:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mobile status=SUCCESS method=MobilePhonesIndex.mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@47f6473] output=<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+      </class> <!-- com.Flipkart.Electonics.Mobile.MobilePhonesIndex -->
+    </test> <!-- Build Configuration -->
+    <test name="Build Configuration1" duration-ms="92338" started-at="2020-05-06T06:28:35Z" finished-at="2020-05-06T06:30:07Z">
+      <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
+        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@69d9c55]" name="BrowserSetup" is-config="true" duration-ms="80373" started-at="2020-05-06T11:58:35Z" finished-at="2020-05-06T11:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method status="FAIL" signature="flipkartTitleFail()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@69d9c55]" name="flipkartTitleFail" duration-ms="2729" started-at="2020-05-06T11:59:55Z" finished-at="2020-05-06T11:59:58Z">
           <exception class="junit.framework.AssertionFailedError">
             <full-stacktrace>
               <![CDATA[junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:48)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Flipkart.Electonics.Mobile.MobilePhonesIndex.mobile(MobilePhonesIndex.java:80)
+	at com.Flipkart.Electonics.Mobile.MobilePhonesIndex.flipkartTitleFail(MobilePhonesIndex.java:110)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,51 +151,24 @@
           </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
             <line>
-              <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com/<font><br><b>]]>
+              <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]>
             </line>
             <line>
-              <![CDATA[<u><Font color='Black'>Verify the 'X' button is available<font><br></u>]]>
+              <![CDATA[<u><Font color='Black'>Verify the 'title' is Correct<font><br></u>]]>
             </line>
             <line>
-              <![CDATA[<b><Font color='green'>Result is Pass:✕ button is shown<font><br><b>]]>
+              <![CDATA[<b><Font color='RED'>Result is Fail: is not available<font><br><b>]]>
             </line>
             <line>
-              <![CDATA[<b><Font color='BLUE'>Step 2: Click on 'X' button<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<u><Font color='Black'>Verify the 'Electronics' button is available<font><br></u>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='RED'>Result is Fail:Electronics button is not shown<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 3: Hower on 'Electronics' button<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 4: Click and select on mobile brands<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 5: Click and drag the price slider<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 6: Click on '4 GB' check box<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 7: Click on ''Product Item link<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<b><Font color='BLUE'>Step 8: Click on ''Add to Cart' link<font><br><b>]]>
-            </line>
-            <line>
-              <![CDATA[<a href="D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\mobile.png">D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\mobile.png</a>]]>
+              <![CDATA[<a href="D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\flipkartTitleFail.png">D:\Automation\Flipkart\FlipKartReport\AnotherScreenshot\flipkartTitleFail.png</a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- mobile -->
-        <test-method status="PASS" signature="postConfig(org.testng.ITestResult)[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@36f6e879]" name="postConfig" is-config="true" duration-ms="9351" started-at="2020-05-04T16:59:57Z" finished-at="2020-05-04T17:00:07Z">
+        </test-method> <!-- flipkartTitleFail -->
+        <test-method status="PASS" signature="postConfig(org.testng.ITestResult)[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@69d9c55]" name="postConfig" is-config="true" duration-ms="9227" started-at="2020-05-06T11:59:58Z" finished-at="2020-05-06T12:00:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mobile status=FAILURE method=MobilePhonesIndex.mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@36f6e879] output=<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com/<font><br><b>]]]>
+                <![CDATA[[TestResult name=flipkartTitleFail status=FAILURE method=MobilePhonesIndex.flipkartTitleFail()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@69d9c55] output=<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com<font><br><b>]]]>
               </value>
             </param>
           </params>
@@ -135,6 +176,6 @@
           </reporter-output>
         </test-method> <!-- postConfig -->
       </class> <!-- com.Flipkart.Electonics.Mobile.MobilePhonesIndex -->
-    </test> <!-- Build Configuration -->
+    </test> <!-- Build Configuration1 -->
   </suite> <!-- Parameter Test  Suit -->
 </testng-results>

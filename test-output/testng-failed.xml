@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
         <methods>
-          <include name="mobile"/>
           <include name="BrowserSetup"/>
+          <include name="flipkartTitleFail"/>
           <include name="postConfig"/>
         </methods>
       </class> <!-- com.Flipkart.Electonics.Mobile.MobilePhonesIndex -->

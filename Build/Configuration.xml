@@ -17,14 +17,18 @@
 
 	</classes>
 </test>
-<!-- <test name="Build Configuration1">
+<test name="Build Configuration1">
 
 	<classes>
 		
-		<class name="" />
+		<class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
+			<methods>
+				<include name="flipkartTitleFail"/>
+			</methods>
+		</class>
 
 	</classes>
-</test> -->
+</test>
   
 <!-- <parameter name="browser_nm" value="gecko" />	
 <parameter name="path_nm" value="D:\\Firefox Driver\\geckodriver.exe" />

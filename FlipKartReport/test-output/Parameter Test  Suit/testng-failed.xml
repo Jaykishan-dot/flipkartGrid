@@ -5,15 +5,17 @@
     <listener class-name="com.Flipkart.Utility.FlipkartReporter"/>
     <listener class-name="com.Flipkart.Utility.FlipkartReporterBuildSummary"/>
   </listeners>
-  <test name="Build Configuration(failed)" parallel="tests">
+  <test name="Build Configuration1(failed)" parallel="tests">
     <classes>
       <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
         <methods>
-          <include name="mobile"/>
           <include name="BrowserSetup"/>
+          <include name="BrowserSetup"/>
+          <include name="flipkartTitleFail"/>
+          <include name="postConfig"/>
           <include name="postConfig"/>
         </methods>
       </class> <!-- com.Flipkart.Electonics.Mobile.MobilePhonesIndex -->
     </classes>
-  </test> <!-- Build Configuration(failed) -->
+  </test> <!-- Build Configuration1(failed) -->
 </suite> <!-- Failed suite [Parameter Test  Suit] -->

@@ -81,5 +81,35 @@ public class MobilePhonesIndex extends SeleniumInit
 		}
 		
 	}
+	
+	@Test
+	public void flipkartTitleFail() throws InterruptedException
+	{
+		int fail=0;
+		int step = 1;
+
+		Common.log("Step " + step++ + ": Open the" + TestURL);
+		
+		Thread.sleep(2000);
+
+		Common.log("Verify the 'title' is Correct");
+		if(mobilePhonesVerification.getFlipkartTitle())
+		{
+			Common.log("Result is Pass:" + mobilePhonesVerification.flipkartTitle.getText() + " is available");
+			
+			System.out.println("This Statement is from MobilePhonesIndex..................................................................");
+		}
+		else
+		{
+			Common.log("Result is Fail:" + mobilePhonesVerification.flipkartTitle.getText() + " is not available");
+			fail++;
+		}
+		
+		if(fail>0)
+		{
+			Assert.assertTrue(false);			
+		}
+		
+	}
 
 }
