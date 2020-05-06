@@ -91,13 +91,13 @@ public class Common {
 		
 	}
 	
-	@SuppressWarnings("resource")
+	/*@SuppressWarnings("resource")
 	public static String email() throws FileNotFoundException {
 		
 		String content = new Scanner(new File("D:\\Automation\\Flipkart\\FlipKartReport\\test-output\\emailable-report-new.html")).useDelimiter("\\Z").next();
 		System.out.println(content);
 		return content;
-	}
+	}*/
 	
 
 }
